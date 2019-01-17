@@ -19,7 +19,6 @@ div.background-jumb {
     height: 175px;
     padding-top: 3vh;
     position: relative;
-    margin-top: 55px;
     background-color:navy;
 
     
@@ -103,7 +102,6 @@ div.bottom-tile{
         width:100%
     }
   div.background-jumb{
-    width:75%;
     margin: auto;
 }
     div.slogan{
@@ -162,36 +160,46 @@ div.links{
 }
 
 
-}
 
 @media screen and (max-width:1200px){
     body{
-        background-color: purple;
+        background-color: white;
         width:100%;
     }
     div.background-jumb{
-    width:75%;
     margin: auto;
-    margin-bottom: 1vh;
+    height: 140px;
+    padding-top: 35px;
 }
     div.slogan{
-    background-color: navy;
-    margin: auto;
-    margin-left: 12vw;
-    margin-bottom: 1vh;
+    float: none;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
     height: auto;
-    width: 72.5%;
-   
+    margin-left: 0px; 
+    padding: 0px;
+    max-width: 100%;
+    margin-left: 13%;
 
+}
+
+div.text{
+    width: 100%;
+}
+
+div.content{
+    width: 100%;
 }
 div.img_container{
     text-align: center;
 }
 img{
     display: inline-block;
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
+    float: none;
  
 }
 
@@ -205,6 +213,10 @@ div.links{
     text-decoration: none;
    
 
+}
+
+p.end{
+    margin-top: 40px;
 }
 
 
