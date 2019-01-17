@@ -168,14 +168,24 @@ div.links{
     }
     div.background-jumb{
     margin: auto;
-    height: 140px;
-    padding-top: 35px;
+    height: 210px;
+    padding-top: 57px;
 }
 
     h2{
         padding-top: 15px;
         font-size: 40px;
     }
+
+    h1.title{
+        font-size: 50px;
+    }
+
+    h2.subtitle{
+        font-size: 30px;
+        margin-top: -2%;
+    }
+
     div.slogan{
     float: none;
     background-color: white;
