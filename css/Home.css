@@ -98,7 +98,7 @@ div.bottom-tile{
 
 @media screen and (max-width: 1919px){
     body{
-        background-color: green;
+        background-color: white;
         width:100%
     }
   div.background-jumb{
@@ -280,67 +280,38 @@ div.links{
 
 @media screen and (max-width:800px){
     body{
-        background-color: blue;
+        background-color: white;
         width:100%;
     }
     div.background-jumb{
-    width:75%;
-    margin: auto;
-    margin-bottom: 1vh;
 }
     div.slogan{
-    background-color: navy;
-    margin-left: 12vw;
-    margin-bottom: 1vh;
-    height: auto;
-    width: 72.5%%;
-   
 
 }
 div.img_container{
-    text-align: center;
 }
 img{
-    max-width: 70%;
-    height: auto;
-    margin: 0 auto;
-    display: inline-block;
 }
 
 div.bottom-title{
-    width: 75%;
-    margin: auto;;
 }
 div.links{
-    padding-right: -40vw;
-    
-    text-decoration: none;
-   
-
 }
 
 
 a{
-    color: #FFD700;
 }
 a:link {
-  text-decoration: none;
 }
 
 a:visited {
-  text-decoration:none;
 
 }
 
 a:hover {
-  text-decoration: none;
-  color: white;
 }
 
 a:active {
-  text-decoration: none;
-
-
 }
 
 
@@ -370,65 +341,49 @@ div.links{
 @media only screen and (max-width: 600px){ 
 
     body{
-        background-color: black;
+        background-color: white;
         width: 100%;
     }
- div.background-jumb{
-    width:80%;
-   
-    margin-bottom: 1vh;
-}
-    div.slogan{
-    background-color: navy;
-    margin: auto;
-    margin-bottom: 1vh;
-    height: auto;
-    width: 78%;
-    margin-left:9.5vw;
-   
+    div.background-jumb{
+        padding-top: 20px;
+        padding-top: 15px;
     }
-    
-div.img_container{
-    text-align: center;
-    margin-bottom:1vh;
-}
-img{
-    max-width: 70%;
-    height: auto;
-    margin-bottom: 1.5vh;
-    display: inline-block;
-    
-}
 
-div.bottom-title{
-    width: 90%;
-    
-}
-div.links{
-    text-decoration: none;
+    body{
+        background-color: white;
+    }
 
-}
+    h1.title{
+        font-size: 25px;
+    }
 
+    h2.subtitle{
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    div.slogan{
+        font-size: 10px;
+}
+h2{
+    font-size: 20px;
+}
+p.end{
+    font-size: 10px;
+}
 
 a{
-    color: #FFD700;
 }
 a:link {
-  text-decoration: none;
 }
 
 a:visited {
-  text-decoration:none;
 
 }
 
 a:hover {
-  text-decoration: none;
-  color: white;
 }
 
 a:active {
-  text-decoration: none;
 
 
 }
@@ -439,68 +394,56 @@ a:active {
 
 
 @media only screen and (max-width: 400px){
-
+    
+    div.background-jumb{
+    }
 
     body{
-        background-color: red;
-         width: 80%:
+        background-color: white;
     }
- div.background-jumb{
-    width:75%;
-   margin-left: 0 auto;
-    margin-bottom: 1vh;
-}
-    div.slogan{
-    background-color: navy;
-    margin-bottom: 1vh;
-    height: auto;
-    width: 70%;
-    margin-left: 15vw;
-   
 
+    h1.title{
+        font-size: 25px;
+    }
+
+    h2.subtitle{
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    div.slogan{
+        font-size: 10px;
+}
+h2{
+    font-size: 20px;
+}
+p.end{
+    font-size: 10px;
 }
 div.img_container{
-    text-align: center;
-    margin-bottom: 1vh;
 }
 img{
-    display: inline-block;
-    max-width: 80%;
-    height: auto;
-    margin: 0 auto;
 }
 
 div.bottom-title{
-    width: 70%;
     
 }
 div.links{
-    text-decoration: none;
 
 }
 
 
 a{
-    color: #FFD700;
 }
 a:link {
-  text-decoration: none;
 }
-
 a:visited {
-  text-decoration:none;
 
 }
 
 a:hover {
-  text-decoration: none;
-  color: white;
 }
 
 a:active {
-  text-decoration: none;
-
-
 }
 
 
