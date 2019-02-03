@@ -1,0 +1,154 @@
+
+img.logo{
+    height: 30px;
+    width: 50px;
+}
+
+
+div.Title-Bar{
+    position: relative;
+    text-align: center;
+}
+img.top{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 550px;
+
+
+}
+
+h2.Title{
+    position: absolute;
+    font-size: 9vw;
+    text-align: center;
+    -webkit-text-stroke: 4px white;
+    color: navy;
+    text-shadow:
+       2px 2px 0 #FFFFFF,
+     -1px -1px 0 #FFFFFF,
+      1px -1px 0 #FFFFFF,
+      -1px 1px 0 #FFFFFF,
+       1px 1px 0 #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.Main-Content{
+    width: 100%;
+    height: 80%;
+    background-color: WhiteSmoke;
+
+}
+h2.content-greeting{
+    text-align: center;
+    font-size: 2.25vw;
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-bottom: 10px;
+    padding-top: 20px;
+
+
+}
+h2.content-description{
+    text-align: center;
+    font-size: 1.5vw;
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-bottom: 10px;
+
+
+
+
+}
+div.Info{
+    width: 30%;
+    height: 80%;
+    font-size: 2vw;
+    text-align: center;
+    float: right;
+    margin-right: 7vw;
+
+
+
+
+
+
+}
+h2.info-description{
+    font-size: 2vw;
+    margin-top: 60px;
+    text-align: center;
+    color: navy;
+}
+h2.Phone{
+    margin-top: 20px;
+    font-size:1.5vw;
+    color: black;
+}
+
+h2.Hours{
+    font-size: .9vw;
+    margin-bottom: 20px;
+    color: black;
+}
+
+h2.Email{
+    font-size: 1.25vw;
+    margin-bottom: 30px;
+    color: black;
+}
+
+h2.info-message{
+    font-size: 1.8vw;
+    color: navy;
+}
+
+div.Form-Container{
+    width: 50%;
+    height: 80%;
+    float: left;
+    margin-left: 7vw;
+    color: black;
+
+
+
+}
+div.form-description{
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+.alert-success{
+    margin: auto;
+    text-align: center;
+    padding:5px;
+    background-color: green;
+    color: white;
+    margin-top: 15px;
+    display: none;
+}
+.alert-fail{
+    margin: auto;
+    text-align: center;
+    padding:5px;
+    background-color: red;
+    color: white;
+    margin-top: 15px;
+    display: none;
+}
+
+div.Form{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+
+
+
+
+
+
+
+

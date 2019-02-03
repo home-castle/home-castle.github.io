@@ -1,0 +1,98 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title> HC Painting</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+        <<link rel="stylesheet" type="text/css" href="css/ContactUs.css">
+
+         <!-- JQuery 3.3.1 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+
+         <!-- Latest compiled and minified JavaScript -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <!-- JQuery UI -->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha254-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script src="js/contact-us.js"
+        <!-- for dropdown (mobile) -->
+        <script src="js/bootstrap-dropdown.js"></script>
+    </head>
+
+    <body>
+
+
+        <!-- navbar -->
+        <nav id="home-nav" class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="Home.html">
+                <img class="logo" src="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-row-reerse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Assess.html">Services <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/markets"> Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/data">References</a>
+                    </li>
+                </ul>
+
+                <div class="ml-auto">
+                    <a role="button" href="/admin-login" class="btn btn-outline-warning">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+            <div class="Title-Bar">
+            <img class="top" src= "images/contact.jpg" />
+            <h2 class= "Title" > Contact Us </h2>
+            </div>
+             <div class= "Main-Content">
+             <h2 class= "content-greeting"> <b>We'd love to begin working with you!</b></h2>
+             <h2 class= "content-description"> Please fill out this form or contact us directly so we can begin working on your project as soon as possible.</h2>
+                <div class= "Info" > <p>
+                    <h2 class="info-description"> Call or email us.</h2>
+                    <h2 class= "Phone">  <b> Phone: </b> </br> 626-394-1989 </br></h2>
+                    <h2 class = "Hours"> <i> 6 a.m. - 10 p.m. </br> Sun-Sat </i> </br>  </h2>
+                    <h2 class = "Email"> </br> <b> Email: </b> </br> homecastlepainting@yahoo.com </h2> <p>
+                    <h2 class="info-message"> We'll be happily waiting to hear from you.</h2>
+                 </div>
+
+                 <div class = "Form-Container">
+
+                    <div class= "Form">
+                     <div class="alert-success"> You're message has been sent</div>
+                     <div class="alert-fail"> Something went wrong. Please try again.</div>
+                    <form id = "contactForm" method="POST" action="send">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputName">Name:</label>
+                                <input type="name" class="form-control" id="name-input" placeholder="Name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPhone">Phone:</label>
+                                <input type="phone" class="form-control" id="phone-input" placeholder="Phone number" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                        <label for="Contact Label">Email address:</label>
+                        <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="Enter Your Email" required>
+                        <small id="contactHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="inLineFormInput">Job Description:</label>
+                            <textarea type="description" class="form-control" id= "description-input" rows= "4"></textarea>
+                        </div>
+                        <button onClick="submitToAPI(event)" class="btn btn-primary" id="submit" value="Submit" >Submit</button>
+                    </form>
+                    </div>
+                    </div>
+                   </div>
+      </body>
+</html>
