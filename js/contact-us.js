@@ -1,7 +1,7 @@
 
 function submitToAPI(e) {
        e.preventDefault();
-       var URL =  "https://krhbele4a7.execute-api.us-west-2.amazonaws.com/test";
+       var URL =  "https://hc8nkjsg0k.execute-api.us-west-2.amazonaws.com/Test01";
             var Namere = /[A-Za-z]{1}[A-Za-z]/;
             if (!Namere.test($("#name-input").val())) {
                          alert ("Name can not less than 2 char");
@@ -36,7 +36,7 @@ function submitToAPI(e) {
 
        $.ajax({
          type: "POST",
-         url : "https://krhbele4a7.execute-api.us-west-2.amazonaws.com/test",
+         url : "https://hc8nkjsg0k.execute-api.us-west-2.amazonaws.com/Test01",
          dataType: "json",
          crossDomain: "true",
          contentType: "application/json; charset=utf-8",
