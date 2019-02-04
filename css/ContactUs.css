@@ -1,4 +1,6 @@
-
+body{
+    background-color: whitesmoke;
+}
 img.logo{
     height: 30px;
     width: 50px;
