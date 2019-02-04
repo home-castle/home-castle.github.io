@@ -98,27 +98,38 @@ div.bottom-tile{
 
 @media screen and (max-width: 1919px){
     body{
-        background-color: white;
+        background-color: black;
         width:100%
+    }
+
+    h1.title{
+        font-size: 30px;
     }
   div.background-jumb{
     margin: auto;
+    height: 130px;
 }
     div.slogan{
-    background-color: navy;
-    margin-left:12vw;
-    height:30%;
-    width: 72.5%;
+    background-color: white;
+    max-width: 575px;
+    margin-left: 0px;
+    height: 490px;
    
 
+}
+
+p.end{
+    margin-top: 60px;
+    font-size: 10px;
 }
 div.img_container{
     text-align: center;
 }
 img{
     display: inline-block;
-    max-width: 70%;
+    max-width: 60%;
     height: auto;
+    margin-left: 0px;
 }
 
 
