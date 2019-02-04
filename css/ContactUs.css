@@ -40,6 +40,7 @@ div.Main-Content{
     width: 100%;
     height: 80%;
     background-color: WhiteSmoke;
+    
 
 }
 h2.content-greeting{
@@ -70,7 +71,7 @@ div.Info{
     text-align: center;
     float: right;
     margin-right: 7vw;
-
+    margin-bottom: 40px;
 
 
 
@@ -112,6 +113,7 @@ div.Form-Container{
     float: left;
     margin-left: 7vw;
     color: black;
+    margin-bottom: 40px;
 
 
 
