@@ -98,7 +98,7 @@ div.bottom-tile{
 
 @media screen and (max-width: 1919px){
     body{
-        background-color: black;
+        background-color: white;
         width:100%
         
     }
@@ -112,7 +112,7 @@ div.bottom-tile{
 }
     div.slogan{
     background-color: white;
-    max-width: 575px;
+    max-width: 500px;
     margin-left: 0px;
     height: 490px;
    
