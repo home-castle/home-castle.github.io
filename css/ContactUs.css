@@ -149,10 +149,11 @@ div.Form{
 
 }
 
+a{
+  color: navy;
+}
 
-
-
-
-
-
+a:hover{
+  color: navy;
+}
 

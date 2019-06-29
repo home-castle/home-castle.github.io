@@ -204,10 +204,7 @@ div.links{
     font-size: 27px;
     text-align: center;
     height: auto;
-    margin-left: 0px; 
-    padding: 0px;
     max-width: 100%;
-    margin-left: 13%;
 
 }
 
@@ -358,7 +355,7 @@ div.links{
     }
     div.background-jumb{
         padding-top: 20px;
-        padding-top: 15px;
+       padding-top: 15px;
     }
 
     body{
