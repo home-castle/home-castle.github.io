@@ -1,4 +1,25 @@
-body{
+.btn-outline-warning{
+    color: white;
+    border-color: navy;
+}
+
+.navbar{
+    background-color: navy;
+}
+
+.btn-outline-warning:hover{
+    background-color: navy;
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-warning:active{
+  background-color: navy;
+  color: white;
+  border-color: white;
+}
+
+body{ 
     background-color: whitesmoke;
 }
 img.logo{
