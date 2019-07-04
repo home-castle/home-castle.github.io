@@ -178,3 +178,75 @@ a:hover{
   color: navy;
 }
 
+
+@media only screen and (max-width: 1200px){
+  h2.content-greeting{
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size:40px;
+    padding-top: 35px;
+  }
+
+  h2.content-description{
+    font-size: 30px;
+    padding:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  div.Info{
+    float: none;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 33%;
+  }
+
+  h2.info-description{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  div.form{
+    float: none;
+  }
+  
+  h2.Phone{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  h2.Hours{
+    font-size: 40px;
+    padding-top: 25px;
+  }
+
+  h2.Email{
+    margin-right: 0px;
+    font-size: 40px;
+    margin-bottom: -25px;
+  }
+
+  a{
+    font-size: 30px;
+    margin-left: -70px;
+  }
+
+  h2.info-message{
+    display: none;
+  }
+
+  div.Form{
+    margin-top: -45px;
+  }
+  div.Form-Container{
+    margin-left: 23%;
+    margin-bottom: 0px;
+  }
+
+  div.form-description{
+    padding-top:0px;
+  }
+}

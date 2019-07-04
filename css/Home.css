@@ -96,7 +96,7 @@ div.bottom-tile{
 }
 
 
-@media screen and (max-width: 1919px){
+@media only screen and (max-width: 1919px){
     body{
         background-color: white;
         width:100%
@@ -173,7 +173,7 @@ div.links{
 
 
 
-@media screen and (max-width:1200px){
+@media only screen and (max-width:1200px){
     body{
         background-color: white;
         width:100%;
@@ -201,9 +201,10 @@ div.links{
     div.slogan{
     float: none;
     background-color: white;
-    font-size: 27px;
-    text-align: center;
+    font-size: 32px;
+    text-align: left;
     height: auto;
+    padding: 25px;
     max-width: 100%;
 
 }
@@ -240,12 +241,15 @@ div.links{
 }
 
 p.end{
-    margin-top: 40px;
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 
 a{
-    color: blue;
+    color: darkblue;
 }
 a:link {
   text-decoration: none;
@@ -267,8 +271,9 @@ a:active {
 
 }
 
-
-
+.about-text{
+  margin-bottom: -7px;
+}
 
 
 div.links{
@@ -287,7 +292,7 @@ div.links{
 
 
 
-@media screen and (max-width:800px){
+@media only screen and (max-width:800px){
     body{
         background-color: white;
         width:100%;
@@ -309,6 +314,7 @@ div.links{
 
 
 a{
+  color: pink
 }
 a:link {
 }
@@ -323,29 +329,14 @@ a:hover {
 a:active {
 }
 
-
-
-
-
 div.links{
     float: right;
     padding-top: 4vh;
     padding-right: 70vw;
     text-decoration: none;
-
-
 }
 
-
 }
-
-
-
-
-
-
-
-
 /* mobile */
 @media only screen and (max-width: 600px){ 
 
@@ -358,10 +349,6 @@ div.links{
        padding-top: 15px;
     }
 
-    body{
-        background-color: white;
-    }
-
     h1.title{
         font-size: 25px;
     }
@@ -381,6 +368,7 @@ p.end{
 }
 
 a{
+  color: pink;
 }
 a:link {
 }
@@ -396,65 +384,5 @@ a:active {
 
 
 }
-
-
-}
-
-
-
-@media only screen and (max-width: 400px){
-    
-    div.background-jumb{
-    }
-
-    body{
-        background-color: white;
-    }
-
-    h1.title{
-        font-size: 25px;
-    }
-
-    h2.subtitle{
-        font-size: 15px;
-        margin-top: -20px;
-    }
-    div.slogan{
-        font-size: 10px;
-}
-h2{
-    font-size: 20px;
-}
-p.end{
-    font-size: 10px;
-}
-div.img_container{
-}
-img{
-}
-
-div.bottom-title{
-    
-}
-div.links{
-
-}
-
-
-a{
-}
-a:link {
-}
-a:visited {
-
-}
-
-a:hover {
-}
-
-a:active {
-}
-
-
 }
 
