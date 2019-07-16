@@ -13,6 +13,11 @@
     border-color: white;
 }
 
+.btn-outline-warning:active{
+  background-color: navy;
+  color: white;
+  border-color: white;
+}
 div.background-jumb {
     max-width: 100%;
     margin:auto;
@@ -137,11 +142,6 @@ img{
 
 a{
 }
-a:link {
-    text-decoration: none;
-    color: lightGrey;
-
-}
 
 a:visited {
   text-decoration:none;
@@ -249,16 +249,17 @@ p.end{
 
 
 a{
-    color: darkblue;
-}
-a:link {
-  text-decoration: none;
+    color: darkBlue;
 }
 
 a:visited {
   text-decoration:none;
-  color: darkblue;
+  color: white;
 
+}
+
+a.link{
+  color: darkBlue;
 }
 
 a:hover {
