@@ -257,12 +257,13 @@ a:link {
 
 a:visited {
   text-decoration:none;
+  color: darkblue;
 
 }
 
 a:hover {
   text-decoration: none;
-  color: white;
+  color: darkblue;
 }
 
 a:active {
