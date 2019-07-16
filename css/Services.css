@@ -24,7 +24,16 @@ div.background-jumb {
     
 
 }
+
+.navbar-brand{
+  font-size: 20px;
+}
+
+.nav-link{
+  font-size: 16px;
+}
 img.logo{
+    margin-top: -60px;
     height: 30px;
     width: 50px;
 }
