@@ -26,7 +26,7 @@ function submit(e) {
   let message = document.querySelector("#description");
   let phone = document.querySelector("#form-phone");
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", "https://jo7bef0pt3.execute-api.us-west-2.amazonaws.com/contact-1", true);
+  xhr.open("POST", "https://v69j50892h.execute-api.us-west-2.amazonaws.com/dev", true);
 
   xhr.setRequestHeader("Content-type", "application/json");
   xhr.onreadystatechange = function() {
