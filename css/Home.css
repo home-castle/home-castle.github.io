@@ -45,7 +45,6 @@ h4.subtitle{
     text-align: center;
     margin-top: 1.4vw;
     margin-top: -4px;
-
 }
 
 div.slogan{
@@ -60,6 +59,7 @@ div.slogan{
 
 body{
     background-color: white;
+    width: 100%;
 }
 
 h2.slogan-body{
@@ -101,9 +101,6 @@ div.bottom-tile{
     div.background-jumb {
         margin: auto;
         height: 130px;
-    }
-
-    div.slogan {
     }
 
     p.end {
