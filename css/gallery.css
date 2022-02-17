@@ -1,13 +1,13 @@
 .gallery-img {
-  width: 350px;
-  height: 250px;
+  width: 400px;
+  height: 300px;
   padding: 5px;
 }
 
 .gallery-img:hover {
-  border-color: navy;
-  border: solid;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
+
 
 .img-container {
   width: 500px;
@@ -17,8 +17,9 @@
 }
 
 .images-container {
+  padding-top: 20px;
   width: 90%;
-  margin: auto;
+  margin: auto; !important;
 }
 
 .large-img {
