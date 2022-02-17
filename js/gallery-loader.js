@@ -18,8 +18,6 @@ for (let imageNum = 1; imageNum <= totalImages; imageNum++) {
                     <img class="gallery-img" src=${imgSrc} />
                 </a>`;
 
-
-
     // append img to all images container
     imagesDiv.append(img);
 }

@@ -81,4 +81,18 @@
     <!-- image loader -->
     <script src="js/gallery-loader.js"></script>
     <script src="node_modules/lightbox2/src/js/lightbox.js"></script>
+    <script>
+        let width = screen.width;
+        let positionFromTop = 50;
+        if (width < 600) {
+            positionFromTop = 350;
+        }
+        lightbox.option({
+            'maxWidth': 900,
+            'maxHeight': 700,
+            'wrapAround': true,
+            'positionFromTop': positionFromTop
+        })
+    </script>
+
 </body>
