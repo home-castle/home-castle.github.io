@@ -8,20 +8,33 @@
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
-
-.img-container {
-  width: 500px;
-  height: 500px;
-  padding-top: 30px;
-  margin: auto;
-}
-
 .images-container {
   padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
   width: 90%;
-  margin: auto; !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.large-img {
-  height: 500px;
+.gallery-row {
+  background-color: yellow;
+}
+
+.gallery-row-last {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .gallery-img {
+    width: 700px;
+    height: 600px;
+    padding: 3px;
+  }
+
+  .images-container {
+    width: 100%;
+  }
 }
