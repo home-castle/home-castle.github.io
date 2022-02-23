@@ -8,10 +8,6 @@
     border-color: navy;
 }
 
-.navbar{
-    background-color: navy;
-}
-
 .btn-outline-warning:hover{
     background-color: navy;
     color: white;
@@ -291,6 +287,13 @@ div.bottom-tile{
     }
     /* mobile */
     @media only screen and (max-width: 600px) {
+        h4.subtitle{
+            color: white;
+            text-align: center;
+            margin-top: 0px;
+            padding-right: 3px;
+            padding-left: 3px;
+        }
 
         body {
             background-color: white;
@@ -303,27 +306,24 @@ div.bottom-tile{
         }
 
         h1.title {
-            font-size: 25px;
-        }
-
-        h4.subtitle {
-            margin-top: -20px;
-        }
-
-        div.slogan {
-            font-size: 10px;
+            font-size: 27px;
         }
 
         h2 {
             font-size: 20px;
         }
 
-        p.end {
-            font-size: 10px;
+        .van-img {
+            margin-top: -15px;
         }
 
-        a {
-            color: pink;
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 15px;
         }
     }
 }

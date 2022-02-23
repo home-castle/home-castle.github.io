@@ -81,3 +81,27 @@ li{
     font-size: 30px;
   }
 }
+
+@media only screen and (max-width: 600px){
+    div.first{
+        width: 60%;
+        height: 300px;
+        height: fit-content;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 15px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
