@@ -1,10 +1,11 @@
+.jumbo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .btn-outline-warning{
     color: white;
     border-color: navy;
-}
-
-.navbar{
-    background-color: navy;
 }
 
 .btn-outline-warning:hover{
@@ -25,52 +26,36 @@ div.background-jumb {
     padding-top: 3vh;
     position: relative;
     background-color:navy;
-
-    
-
 }
 
-img.logo{
-    margin-top: -4px;
-    height: 30px;
-    width: 50px;
-}
 html{
     margin: 0;
 }
 h1.title{
     color: white;
     text-align: center;
-    font-size: 3vw;
-    
 }
 
-h2.subtitle{
+h4.subtitle{
     color: white;
-    font-size:1.5vw;
     text-align: center;
     margin-top: 1.4vw;
     margin-top: -4px;
-
 }
+
 div.slogan{
-    float: left;
-    color: navy;
-    border-color: navy;
-    max-width:600px;
-    height: 610px;
-    font-size:1vw;
-    margin-top: 12px;
-    padding: 8px;
-    margin-left: 70px;
-
-
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.img_container{
-    background-color: yellow;
+
+.van-img {
+    width: 100%;
+    height: 100%;
 }
+
 body{
     background-color: white;
+    width: 100%;
 }
 
 h2.slogan-body{
@@ -80,16 +65,13 @@ h2.slogan-body{
 
 
 img{
-    width: 1200px;
-    margin-left: 35px;
-    height: 723px;
-    float:right;
-    
 }
+
 p.end{
     margin-top: 120px;
     font-size: 14px;
 }
+
 div.bottom-tile{
     background-color: red;
     color: white;
@@ -101,290 +83,247 @@ div.bottom-tile{
 }
 
 
-@media only screen and (max-width: 1919px){
-    body{
+@media only screen and (max-width: 1919px) {
+    body {
         background-color: white;
-        width:100%
-        
+        width: 100%
+
     }
 
-    h1.title{
+    h1.title {
         font-size: 30px;
     }
-  div.background-jumb{
-    margin: auto;
-    height: 130px;
-}
-    div.slogan{
-    background-color: white;
-    max-width: 500px;
-    margin-left: 0px;
-    height: 490px;
-   
 
-}
-
-p.end{
-    margin-top: 60px;
-    font-size: 10px;
-}
-div.img_container{
-    text-align: center;
-}
-img{
-    display: inline-block;
-    max-width: 60%;
-    height: auto;
-    margin-left: 0px;
-}
-
-
-
-a{
-}
-
-a:visited {
-  text-decoration:none;
-
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-
-
-}
-
-
-
-
-
-div.links{
-    float: right;
-    padding-top: 4vh;
-    padding-right: 3vw;
-    text-decoration: none;
-
-
-}
-
-
-
-@media only screen and (max-width:1200px){
-    body{
-        background-color: white;
-        width:100%;
-    }
-    div.background-jumb{
-    margin: auto;
-    height: 210px;
-    padding-top: 57px;
-}
-
-    h2{
-        padding-top: 15px;
-        font-size: 40px;
+    div.background-jumb {
+        margin: auto;
+        height: 130px;
     }
 
-    h1.title{
-        font-size: 50px;
-    }
-
-    h2.subtitle{
-        font-size: 30px;
-        margin-top: -2%;
-    }
-
-    div.slogan{
-    float: none;
-    background-color: white;
-    font-size: 32px;
-    text-align: left;
-    height: auto;
-    padding: 25px;
-    max-width: 100%;
-
-}
-
-div.text{
-    width: 100%;
-}
-
-div.content{
-    width: 100%;
-}
-div.img_container{
-    text-align: center;
-}
-img{
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    float: none;
- 
-}
-
-div.bottom-title{
-    width: 75%;
-    margin: auto;;
-}
-div.links{
-    padding-right: -20vw;
-    
-    text-decoration: none;
-   
-
-}
-
-p.end{
-    margin-top: 20px;
-    color: grey;
-    font-size: 20px;
-    padding-left: 20px;
-}
-
-
-a{
-    color: darkBlue;
-}
-
-a:visited {
-  text-decoration:none;
-  color: white;
-
-}
-
-a.link{
-  color: darkBlue;
-}
-
-a:hover {
-  text-decoration: none;
-  color: darkblue;
-}
-
-a:active {
-  text-decoration: none;
-
-
-}
-
-.about-text{
-  margin-bottom: -7px;
-}
-
-
-div.links{
-    float: right;
-    padding-top: 4vh;
-    padding-right: 70vw;
-    text-decoration: none;
-
-
-}
-
-
-}
-
-
-
-
-
-@media only screen and (max-width:800px){
-    body{
-        background-color: white;
-        width:100%;
-    }
-    div.background-jumb{
-}
-    div.slogan{
-
-}
-div.img_container{
-}
-img{
-}
-
-div.bottom-title{
-}
-div.links{
-}
-
-
-a{
-  color: pink
-}
-a:link {
-}
-
-a:visited {
-
-}
-
-a:hover {
-}
-
-a:active {
-}
-
-div.links{
-    float: right;
-    padding-top: 4vh;
-    padding-right: 70vw;
-    text-decoration: none;
-}
-
-}
-/* mobile */
-@media only screen and (max-width: 600px){ 
-
-    body{
-        background-color: white;
-        width: 100%;
-    }
-    div.background-jumb{
-        padding-top: 20px;
-       padding-top: 15px;
-    }
-
-    h1.title{
-        font-size: 25px;
-    }
-
-    h2.subtitle{
-        font-size: 15px;
-        margin-top: -20px;
-    }
-    div.slogan{
+    p.end {
+        margin-top: 60px;
         font-size: 10px;
-}
-h2{
-    font-size: 20px;
-}
-p.end{
-    font-size: 10px;
-}
-
-a{
-  color: pink;
-}
-a:link {
-}
-
-a:visited {
-
-}
-
-a:hover {
-}
-
-a:active {
+    }
 
 
-}
-}
+    img {
+    }
 
+    a {
+    }
+
+    a:visited {
+        text-decoration: none;
+
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+
+
+    }
+
+
+    div.links {
+        float: right;
+        padding-top: 4vh;
+        padding-right: 3vw;
+        text-decoration: none;
+
+
+    }
+
+
+    @media only screen and (max-width: 1200px) {
+        body {
+            background-color: white;
+            width: 100%;
+        }
+
+        div.background-jumb {
+            margin: auto;
+            height: 210px;
+            padding-top: 57px;
+        }
+
+        h2 {
+            padding-top: 15px;
+            font-size: 40px;
+        }
+
+        h1.title {
+            font-size: 50px;
+        }
+
+        h4.subtitle {
+            margin-top: -2%;
+        }
+
+        div.slogan {
+        }
+
+        div.text {
+            width: 100%;
+        }
+
+        div.content {
+            width: 100%;
+        }
+
+        img {
+        }
+
+        div.bottom-title {
+            width: 75%;
+            margin: auto;;
+        }
+
+        div.links {
+            padding-right: -20vw;
+            text-decoration: none;
+        }
+
+        p.end {
+            margin-top: 20px;
+            color: grey;
+            font-size: 20px;
+            padding-left: 20px;
+        }
+
+
+        a {
+            color: darkBlue;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        a.link {
+            color: darkBlue;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        a:active {
+            text-decoration: none;
+
+
+        }
+
+        .about-text {
+            margin-bottom: -7px;
+        }
+
+
+        div.links {
+            float: right;
+            padding-top: 4vh;
+            padding-right: 70vw;
+            text-decoration: none;
+
+
+        }
+
+
+    }
+
+
+
+
+
+    @media only screen and (max-width: 800px) {
+        body {
+            background-color: white;
+            width: 100%;
+        }
+
+        div.background-jumb {
+        }
+
+        div.slogan {
+
+        }
+
+        div.bottom-title {
+        }
+
+        div.links {
+        }
+
+
+        a {
+            color: pink
+        }
+
+        a:link {
+        }
+
+        a:visited {
+
+        }
+
+        a:hover {
+        }
+
+        a:active {
+        }
+
+        div.links {
+            float: right;
+            padding-top: 4vh;
+            padding-right: 70vw;
+            text-decoration: none;
+        }
+
+    }
+    /* mobile */
+    @media only screen and (max-width: 600px) {
+        h4.subtitle{
+            color: white;
+            text-align: center;
+            margin-top: 0px;
+            padding-right: 3px;
+            padding-left: 3px;
+        }
+
+        body {
+            background-color: white;
+            width: 100%;
+        }
+
+        div.background-jumb {
+            padding-top: 20px;
+            padding-top: 15px;
+        }
+
+        h1.title {
+            font-size: 27px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .van-img {
+            margin-top: -15px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+}
