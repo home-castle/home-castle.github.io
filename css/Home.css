@@ -1,3 +1,7 @@
+body {
+    overflow-y: hidden;
+}
+
 .jumbo {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -19,6 +23,7 @@
   color: white;
   border-color: white;
 }
+
 div.background-jumb {
     max-width: 100%;
     margin:auto;
@@ -28,9 +33,6 @@ div.background-jumb {
     background-color:navy;
 }
 
-html{
-    margin: 0;
-}
 h1.title{
     color: white;
     text-align: center;
@@ -44,18 +46,20 @@ h4.subtitle{
 }
 
 div.slogan{
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 30px;
+    background-color: white;
+    overflow-y: hidden;
+}
+
+.splash-card {
+    padding-left: 34px;
+    padding-right: 34px;
 }
 
 .van-img {
     width: 100%;
     height: 100%;
-}
-
-body{
-    background-color: white;
-    width: 100%;
 }
 
 h2.slogan-body{
@@ -85,9 +89,7 @@ div.bottom-tile{
 
 @media only screen and (max-width: 1919px) {
     body {
-        background-color: white;
-        width: 100%
-
+        overflow-y: visible;
     }
 
     h1.title {
@@ -140,7 +142,6 @@ div.bottom-tile{
     @media only screen and (max-width: 1200px) {
         body {
             background-color: white;
-            width: 100%;
         }
 
         div.background-jumb {
@@ -243,7 +244,6 @@ div.bottom-tile{
     @media only screen and (max-width: 800px) {
         body {
             background-color: white;
-            width: 100%;
         }
 
         div.background-jumb {
@@ -297,7 +297,6 @@ div.bottom-tile{
 
         body {
             background-color: white;
-            width: 100%;
         }
 
         div.background-jumb {

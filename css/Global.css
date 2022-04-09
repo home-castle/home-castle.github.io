@@ -1,0 +1,18 @@
+/* contains css rules for that are common in every page */
+body {
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+html {
+    height: 100%;
+    background-color: #f3f3f3;
+}
+
+@media (max-width: 1900px) {
+    body {
+        width: 78%;
+    }
+}
