@@ -1,0 +1,146 @@
+/*
+ * contains CSS rules that apply to each page
+ */
+body {
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+html {
+    height: 100%;
+    background-color: #f3f3f3;
+}
+
+@media (max-width: 2100px) {
+    body {
+       width: 75%;
+    }
+}
+
+@media (max-width: 1900px) {
+    body {
+        width: 78%;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 1700px) {
+    body {
+        width: 85%;
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1500px) {
+    body {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 770px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
