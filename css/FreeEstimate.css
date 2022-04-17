@@ -1,0 +1,25 @@
+.half-width {
+    width: 40%;
+}
+
+.form-container {
+    width: 80%;
+    margin: auto;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.required:after {
+    margin-left: 3px;
+    content:"*";
+    color: red;
+}
+
+.text-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
