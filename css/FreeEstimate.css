@@ -1,3 +1,18 @@
+.estimate-diagram {
+    display: flex;
+    justify-content: center;
+}
+
+.ui.cards {
+    justify-content: center;
+}
+
+.column {
+}
+
+.test {
+}
+
 .half-width {
     width: 40%;
 }

@@ -50,73 +50,118 @@
             </div>
         </nav>
 
-        <div class="ui card">
-            <div class="image">
-                <img src="../images/van.jpg" />
+        <!--
+        <div class="text-container">
+            <h1> Let Us Know About Your Project! </h1>
+            <h2> And We'll Happily Give You a Free Estimate</h2>
+        </div>
+        -->
+        <br/>
+
+        <div class="text-container">
+            <h2> Contact Us </h2>
+            <div style="display: flex; margin-bottom: 10px">
+                <i class="big phone alternate icon"></i>
+                <p> Call us at: <a href="tel:626-394-1989">626-394-1989</a></p>
             </div>
-            <div class="content">
-                <a class="header">Kristy</a>
-                <div class="meta">
-                    <span class="date">Joined in 2013</span>
-                </div>
-                <div class="description">
-                    Kristy is an art director living in New York.
-                </div>
+            <div style="display: flex">
+                <i class="big envelope outline icon"></i>
+                <p> Email us here: <a href="mailto:homecastlepainting@yahoo.com">homecastlepainting@yahoo.com</a></p>
             </div>
-            <div class="extra content">
-                <a>
-                    <i class="user icon"></i>
-                    22 Friends
-                </a>
+
+        </div>
+
+        <br/>
+
+        <div class="text-container">
+            <h2> Here's Our Estimate Process </h2>
+            <div class="ui cards">
+                <div class="ui card column">
+                    <div class="content">
+                        <div class="header">Step 1. Contact Us</div>
+                    </div>
+                    <div class="content">
+                        <div class="ui small feed">
+                            <div class="content">
+                                <div class="summary">
+                                    <p>Reach out to us using our contact information or by completing the free estimate form below.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui card column">
+                    <div class="content">
+                        <div class="header">Step 2. In Person Appointment</div>
+                    </div>
+                    <div class="content">
+                        <div class="ui small feed">
+                            <div class="content">
+                                <div class="summary">
+                                    <p>We'll then schedule an in person appointment with you where we'll visit the soon-to-be painted property.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui card column">
+                    <div class="content">
+                        <div class="header">Step 3. We Send You The Estimate </div>
+                    </div>
+                    <div class="content">
+                        <div class="ui small feed">
+                            <div class="content">
+                                <div class="summary">
+                                    <p>That's it! You can follow up and let us know if you'd like for us to take on the job. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="text-container">
-            <h1> Let us know about your project! </h1>
-            <h2> And we'll happily give you a free estimate.</h2>
-        </div>
-        <div class="text-container">
-            <h2> Here's our estimate process.</h2>
-            <h2> Reach out to us using our contact information or by completing the form below. </h2>
-            <h2> We'll then schedule an in person appointment where we'll visit the soon-to-be painted property.</h2>
-            <h2> While scheduling an in-person appt is recommended, it is optional. Feel free to send us images and/or blueprints of the
-                work to be completed.</h2>
-            <h2> We send you the estimate. That's it!</h2>
-            <h2> </h2>
-        </div>
+        <br/>
+
         <form>
             <div class="form-container">
+                <h2> Free Estimate Form </h2>
                 <p> Please fill out the information below to get started with the free estimate process. </p>
                 <p> Your information will not be shared with anyone else. </p>
+                <p> Note: <a class="required"></a> means field is required.</p>
                 <label class="form-label required">Name</label>
                 <div class="mb-3 half-width">
                     <input class="form-control" id="name" aria-describedby="name-text">
-                    <div id="name-error" class="invalid-feedback">Name cannot be empty.</div>
+                    <div id="name-blank-error" class="invalid-feedback">Name cannot be empty.</div>
                     <div id="name-text" class="form-text">First and Last Name</div>
                 </div>
 
                 <div class="half-width mb-3">
                     <label for="phone-number" class="form-label required">Phone</label>
                     <input class="form-control" id="phone-number" aria-describedby="phone-number-text">
-                    <div id="phone-number-text" class="form-text">Recommended Format: 626-394-1989</div>
+                    <div id="phone-blank-error" class="invalid-feedback">Phone number cannot be empty.</div>
+                    <div id="phone-number-text" class="form-text">Required Format: 626-394-1989</div>
                 </div>
 
                 <div class="half-width mb-3">
                     <label for="email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="email">
+                    <div id="email-blank-error" class="invalid-feedback">Email cannot be empty if set as the preferred method of contact. Please update preferred method of contact below or enter a valid email. </div>
                 </div>
 
                 <label class="form-label">Preferred Method of Contact</label>
                 <div class="input-group mb-3">
                     <div class="form-check margin-right">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-                        <label class="form-check-label" for="flexRadioDefault1" style="color:grey">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="phone-contact" checked>
+                        <label class="form-check-label" for="phone-contact" style="color:grey">
                             Phone
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                        <label class="form-check-label" for="flexRadioDefault2" style="color: grey">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="email-contact">
+                        <label class="form-check-label" for="email-contact" style="color: grey">
                             Email
                         </label>
                     </div>
@@ -129,7 +174,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <input type="email" class="form-control" id="address-line-2" aria-describedby="address-line-2-text">
+                    <input class="form-control" id="address-line-2" aria-describedby="address-line-2-text">
                     <div id="address-line-2-text" class="form-text">Address Line 2</div>
                 </div>
 
@@ -174,6 +219,8 @@
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
+                <br/>
+                <br/>
             </div>
         </form>
 
