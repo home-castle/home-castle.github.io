@@ -59,11 +59,11 @@
             <h2> Contact Us </h2>
             <div style="display: flex; margin-bottom: 10px">
                 <i class="big phone alternate icon"></i>
-                <p> Call us at: <a href="tel:626-394-1989">626-394-1989</a></p>
+                <p> Call us at: <a style="color: mediumblue" href="tel:626-394-1989">626-394-1989</a></p>
             </div>
             <div style="display: flex">
                 <i class="big envelope outline icon"></i>
-                <p> Email us here: <a href="mailto:homecastlepainting@yahoo.com">homecastlepainting@yahoo.com</a></p>
+                <p> Email us here: <a style="color: mediumblue" href="mailto:homecastlepainting@yahoo.com">homecastlepainting@yahoo.com</a></p>
             </div>
 
         </div>
@@ -130,62 +130,66 @@
                 <p> Note: <a class="required"></a> means field is required.</p>
                 <label class="form-label required">Name</label>
                 <div class="mb-3 half-width">
-                    <input class="form-control" id="name" aria-describedby="name-text">
+                    <input class="form-control shadow-none" id="name" aria-describedby="name-text">
                     <div id="name-blank-error" class="invalid-feedback">Name cannot be empty.</div>
                     <div id="name-text" class="form-text">First and Last Name</div>
                 </div>
 
                 <div class="half-width mb-3">
                     <label for="phone-number" class="form-label required">Phone</label>
-                    <input class="form-control" id="phone-number" aria-describedby="phone-number-text">
+                    <input class="form-control shadow-none" id="phone-number" aria-describedby="phone-number-text">
                     <div id="phone-blank-error" class="invalid-feedback">Phone number cannot be empty.</div>
                     <div id="phone-number-text" class="form-text">Required Format: 626-394-1989</div>
                 </div>
 
                 <div class="half-width mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email">
+                    <input type="email" class="form-control shadow-none" id="email">
                     <div id="email-blank-error" class="invalid-feedback">Email cannot be empty if set as the preferred method of contact. Please update preferred method of contact below or enter a valid email. </div>
                 </div>
 
                 <label class="form-label">Preferred Method of Contact</label>
                 <div class="input-group mb-3">
                     <div class="form-check margin-right">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="phone-contact" checked>
+                        <input class="form-check-input shadow-none" type="radio" name="flexRadioDefault" id="phone-contact" checked>
                         <label class="form-check-label" for="phone-contact" style="color:grey">
                             Phone
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="email-contact">
+                        <input class="form-check-input shadow-none" type="radio" name="flexRadioDefault" id="email-contact">
                         <label class="form-check-label" for="email-contact" style="color: grey">
                             Email
                         </label>
                     </div>
                 </div>
 
-                <label class="form-label">Address</label>
+                <label class="form-label required">Address</label>
+                <p style="color: grey"> To ensure we are able to service your home, please provide your address. </p>
                 <div class="mb-3">
-                    <input class="form-control" id="street-address" aria-describedby="street-address-text">
+                    <input class="form-control shadow-none" id="street-address" aria-describedby="street-address-text">
+                    <div id="street-address-error" class="invalid-feedback">Street Address cannot be empty.</div>
                     <div id="street-address-text" class="form-text">Street Address</div>
                 </div>
 
                 <div class="mb-3">
-                    <input class="form-control" id="address-line-2" aria-describedby="address-line-2-text">
+                    <input class="form-control shadow-none" id="address-line-2" aria-describedby="address-line-2-text">
                     <div id="address-line-2-text" class="form-text">Address Line 2</div>
                 </div>
 
                 <div class="input-group mb-3">
                     <div class="margin-right">
-                        <input class="form-control" id="city" aria-describedby="city-text">
+                        <input class="form-control shadow-none" id="city" aria-describedby="city-text">
+                        <div id="city-error" class="invalid-feedback">City cannot be empty.</div>
                         <div id="city-text" class="form-text">City</div>
                     </div>
                     <div class="margin-right">
-                        <input class="form-control" id="state" value="California" aria-label="California" aria-describedby="state-text" disabled readonly>
+                        <input class="form-control shadow-none" id="state" value="California" aria-label="California" aria-describedby="state-text" disabled readonly>
                         <div id="state-text" class="form-text">State</div>
                     </div>
                     <div class="margin-right">
-                        <input class="form-control" id="zip-code" aria-describedby="zip-code-text">
+                        <input class="form-control shadow-none" id="zip-code" aria-describedby="zip-code-text">
+                        <div id="zip-code-error" class="invalid-feedback">Zip Code cannot be empty.</div>
                         <div id="zip-code-text" class="form-text">Zip Code</div>
                     </div>
                 </div>
@@ -193,51 +197,61 @@
                 <label class="form-label">Type of Project</label>
                 <div class="mb-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="exterior-painting">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="exterior-painting">
                         <label class="form-check-label" for="exterior-painting" style="color: grey;">Exterior Painting</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="interior-painting">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="interior-painting">
                         <label class="form-check-label" for="interior-painting" style="color: grey;">Interior Painting</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="fence-gate">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="cabinets">
+                        <label class="form-check-label" for="cabinets" style="color: grey;">Cabinets</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="fence-gate">
                         <label class="form-check-label" for="fence-gate" style="color: grey;">Fence/Gate</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="other">
+                        <input class="form-check-input shadow-none" type="checkbox" value="" id="other">
                         <label class="form-check-label" for="other" style="color: grey;">Other</label>
                     </div>
                 </div>
 
-                <!--
                 <label class="form-label">How Did You Hear About Us?</label>
                 <div class="mb-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="exterior-painting">
-                        <label class="form-check-label" for="exterior-painting" style="color: grey;"></label>
+                        <input class="form-check-input" type="checkbox" value="" id="repeat-client">
+                        <label class="form-check-label" for="repeat-client" style="color: grey;">Repeat Client</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="interior-painting">
-                        <label class="form-check-label" for="interior-painting" style="color: grey;">Interior Painting</label>
+                        <input class="form-check-input" type="checkbox" value="" id="referral">
+                        <label class="form-check-label" for="referral" style="color: grey;">Referral</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="fence-gate">
-                        <label class="form-check-label" for="fence-gate" style="color: grey;">Fence/Gate</label>
+                        <input class="form-check-input" type="checkbox" value="" id="email-hear">
+                        <label class="form-check-label" for="email-hear" style="color: grey;">Email</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="other">
-                        <label class="form-check-label" for="other" style="color: grey;">Other</label>
+                        <input class="form-check-input" type="checkbox" value="" id="internet-ad">
+                        <label class="form-check-label" for="internet-ad" style="color: grey;">Internet Ad</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="van-wrap">
+                        <label class="form-check-label" for="van-wrap" style="color: grey;">Van Wrap</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="none">
+                        <label class="form-check-label" for="none" style="color: grey;">None of the above</label>
                     </div>
                 </div>
-                -->
 
                 <div class="mb-3">
                     <label for="project-details" class="form-label">Tell us a little about your project:</label>
-                    <textarea class="form-control" id="project-details" rows="3"></textarea>
+                    <textarea class="form-control shadow-none" id="project-details" rows="3"></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" style="background-color: mediumblue; border-color: navy">Submit</button>
                 <br/>
                 <br/>
             </div>

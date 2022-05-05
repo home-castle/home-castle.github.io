@@ -43,8 +43,25 @@ $("form").on( "submit", function (e) {
         $("#email-regex-error").hide();
     }
 
+    // check if street address field is empty
+    if (address1.val() === "") {
+        address1.addClass("is-invalid");
+        $("#street-address-text").hide();
+    }
+
+    // check if city field is empty
+    if (city.val() === "") {
+        city.addClass("is-invalid");
+        $("#city-text").hide();
+    }
+
+    // check if zip code is empty
+    if (zip.val() === "") {
+        zip.addClass("is-invalid");
+        $("#zip-code-text").hide();
+    }
+
     formFeedback.hide();
-    window.alert("form submitted");
 });
 
 $("input").change(function (e) {
