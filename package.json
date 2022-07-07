@@ -2,22 +2,10 @@
   "name": "package",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "fomantic-ui": "^2.8.8",
     "lightbox2": "^2.11.3"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/home-castle/home-castle.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/home-castle/home-castle.github.io/issues"
-  },
-  "homepage": "https://github.com/home-castle/home-castle.github.io#readme"
+  }
 }
