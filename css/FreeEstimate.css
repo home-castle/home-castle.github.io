@@ -1,0 +1,73 @@
+.button-default {
+    background-color: mediumblue;
+    border-color: navy;
+}
+
+.estimate-diagram {
+    display: flex;
+    justify-content: center;
+}
+
+.ui.cards {
+    justify-content: center;
+}
+
+.form-control:focus {
+    border-color: lightgrey;
+}
+
+.form-check-input:checked {
+    background-color: mediumblue;
+    border-color: mediumblue;
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+
+.half-width {
+    width: 40%;
+}
+
+.form-container {
+    width: 80%;
+    margin: auto;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.required:after {
+    margin-left: 3px;
+    content:"*";
+    color: red;
+}
+
+.text-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.submit-results {
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    .mobile-margin-top {
+        margin-top: 20px;
+    }
+
+    .half-width {
+        width: 100%;
+    }
+
+    .submit-results {
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+}

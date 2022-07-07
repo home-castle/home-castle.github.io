@@ -7,7 +7,7 @@ let mobile = screen.width <= 600;
 
 for (let imageNum = 1; imageNum <= totalImages; imageNum++) {
     // define image src
-    let imgSrc = "gallery/image" + imageNum + ".jpg";
+    let imgSrc = "../gallery/image" + imageNum + ".jpg";
 
     // create new image
     let img;

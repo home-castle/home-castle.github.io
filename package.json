@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "fomantic-ui": "^2.8.8",
     "lightbox2": "^2.11.3"
   },
   "scripts": {
