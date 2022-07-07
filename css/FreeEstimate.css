@@ -1,3 +1,8 @@
+.button-default {
+    background-color: mediumblue;
+    border-color: navy;
+}
+
 .estimate-diagram {
     display: flex;
     justify-content: center;
@@ -48,8 +53,21 @@
     margin-bottom: 40px;
 }
 
+.submit-results {
+    padding-left: 20px;
+}
+
 @media only screen and (max-width: 650px) {
+    .mobile-margin-top {
+        margin-top: 20px;
+    }
+
     .half-width {
         width: 100%;
+    }
+
+    .submit-results {
+        padding-left: 0px;
+        margin-top: 10px;
     }
 }

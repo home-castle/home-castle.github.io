@@ -127,7 +127,7 @@
 
         <form>
             <div class="form-container">
-                <h2> Free Estimate Form </h2>
+                <h2 id="free-estimate-title"> Free Estimate Form </h2>
                 <p> Please fill out the information below to get started with the free estimate process. </p>
                 <p> Your information will not be shared with anyone else. </p>
                 <p> Note: <a class="required"></a> means field is required.</p>
@@ -142,7 +142,7 @@
                     <label for="phone-number" class="form-label required">Phone</label>
                     <input class="form-control shadow-none" id="phone-number" aria-describedby="phone-number-text">
                     <div id="phone-blank-error" class="invalid-feedback">Phone number cannot be empty.</div>
-                    <div id="phone-number-text" class="form-text">Required Format: 626-394-1989</div>
+                    <div id="phone-number-text" class="form-text">Recommended Format: 626-394-1989</div>
                 </div>
 
                 <div class="half-width mb-3">
@@ -154,13 +154,13 @@
                 <label class="form-label">Preferred Method of Contact</label>
                 <div class="input-group mb-3">
                     <div class="form-check margin-right">
-                        <input class="form-check-input shadow-none" type="radio" name="flexRadioDefault" id="phone-contact" checked>
+                        <input id="phone-radio-button" class="form-check-input shadow-none" type="radio" name="flexRadioDefault" id="phone-contact" checked>
                         <label class="form-check-label" for="phone-contact" style="color:grey">
                             Phone
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input shadow-none" type="radio" name="flexRadioDefault" id="email-contact">
+                        <input id="email-radio-button" class="form-check-input shadow-none" type="radio" name="flexRadioDefault" id="email-contact">
                         <label class="form-check-label" for="email-contact" style="color: grey">
                             Email
                         </label>
@@ -186,18 +186,18 @@
                         <div id="city-error" class="invalid-feedback">City cannot be empty.</div>
                         <div id="city-text" class="form-text">City</div>
                     </div>
-                    <div class="margin-right">
+                    <div class="margin-right mobile-margin-top">
                         <input class="form-control shadow-none" id="state" value="California" aria-label="California" aria-describedby="state-text" disabled readonly>
                         <div id="state-text" class="form-text">State</div>
                     </div>
-                    <div class="margin-right">
+                    <div class="margin-right mobile-margin-top">
                         <input class="form-control shadow-none" id="zip-code" aria-describedby="zip-code-text">
                         <div id="zip-code-error" class="invalid-feedback">Zip Code cannot be empty.</div>
                         <div id="zip-code-text" class="form-text">Zip Code</div>
                     </div>
                 </div>
 
-                <label class="form-label">Type of Project</label>
+                <label class="form-label">Type of Project?</label>
                 <div class="mb-3">
                     <div class="form-check">
                         <input class="form-check-input shadow-none" type="checkbox" value="" id="exterior-painting">
@@ -254,13 +254,23 @@
                     <textarea class="form-control shadow-none" id="project-details" rows="3"></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-primary" style="background-color: mediumblue; border-color: navy">Submit</button>
+                <span class="input-group">
+                    <button id="submit-button" type="submit" class="btn btn-primary button-default">
+                        <div id="submitting-button-style" style="display: none">
+                            <span id="submit-scroller" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Submitting...
+                        </div>
+                        <div id="submit-button-default-style">Submit</div>
+                    </button>
+                    <p class="submit-results" id="submit-error-text" style="display: none; color: red;"> An error occurred, please try again later.</p>
+                    <p class="submit-results" id="submit-validation-error-text" style="display: none; color: red;"> Please correct the fields above before submitting. </p>
+                    <p class="submit-results" id="submit-success-text" style="display: none; color: green;"> Thank you for submitting your request! We will get back to you soon.</p>
+                </span>
                 <br/>
                 <br/>
+
             </div>
         </form>
-
-        <h1 id="sending-form" style="display: none">Submitting Form...</h1>
 
         <script type="text/javascript" src="../js/submit-estimate.js"></script>
     </body>
